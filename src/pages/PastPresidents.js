@@ -24,9 +24,9 @@ const PastPresidents = () => {
             <div className="main-content">
             <div className="rwt-team-area rn-section-gap">
         <div className="container">
-            <div className="row row--30">
-            <table class="table">
-  <thead>
+            <div className="table-responsive">
+    <table className="table table-striped table-hover table-bordered">
+  <thead className="table-light">
     <tr>
       <th scope="col">#</th>
       <th scope="col">National Committee Of India</th>
