@@ -29,13 +29,13 @@ const FooterOne = () => {
                                             image2={`${process.env.PUBLIC_URL}/images/logo/new-skal-logo.png`}
                                         />
                                     </div>
-                                    <h3 className="text-big">{footerIntem.title}</h3>
+                                    <h3 className="text-big" style={{color: "white"}}>{footerIntem.title}</h3>
                                 </div>
                             </div>
                             {/* End Single Widget  */}
 
                             {/* Start Single Widget  */}
-                            <div className="col-lg-2 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
                                     <div className="widget-menu-top">
                                         <h4 className="title">{footerIntemOne.title}</h4>
@@ -61,11 +61,11 @@ const FooterOne = () => {
 
                                     
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Widget  */}
 
                             {/* Start Single Widget  */}
-                            <div className="col-lg-2 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-2 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
                                     
                                     <div className="widget-menu-top">
@@ -91,7 +91,7 @@ const FooterOne = () => {
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Widget  */}
 
                             {/* Start Single Widget  */}
@@ -100,14 +100,12 @@ const FooterOne = () => {
                                     <h4 className="title">{footerIntemFive.title}</h4>
                                     <div className="inner">
                                         <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
-                                        <form className="newsletter-form" action="#">
+                                        {/* <form className="newsletter-form" action="#">
                                             <div className="form-group">
                                                 <input type="email" placeholder="Enter Your Email Here" />
                                             </div>
-                                            <div className="form-group">
-                                                <button className="btn-default" type="submit">Submit Now</button>
-                                            </div>
-                                        </form>
+                                            
+                                        </form> */}
                                     </div>
                                 </div>
                             </div>

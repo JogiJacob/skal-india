@@ -50,7 +50,7 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                {/* <Darkmode /> */}
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
     const sticky = useStickyHeader( 50 );
     const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
     const { clientHeight } = ref;
-    
+    document.querySelector('body').classList.add("light")
     const checkChange = (value) => {
       setCheck(value);
     };
@@ -45,7 +45,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                {/* <Darkmode /> */}
                             </div>  
                         </div>
                     </div>

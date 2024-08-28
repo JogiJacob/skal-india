@@ -7,26 +7,26 @@ const Nav = () => {
 
             <li className="has-droupdown"><Link to="#">SKÅL India</Link>
                 <ul className="submenu">
-                    <li><Link to="/business-consulting">Overview</Link></li>
+                    {/* <li><Link to="/business-consulting">Overview</Link></li> */}
                     <li><Link to="/national-board">National Board</Link></li>
-                    <li><Link to="/corporate">Committee Heads</Link></li>
+                    {/* <li><Link to="/corporate">Committee Heads</Link></li> */}
                     <li><Link to="/past-presidents">Past Presidents</Link></li>
-                    <li><Link to="/business">Affiliations</Link></li>
-                    <li><Link to="/digital-agency">Memberships</Link></li>
-                    <li><Link to="/finance">Young SKÅL</Link></li>
+                    {/* <li><Link to="/business">Affiliations</Link></li> */}
+                    {/* <li><Link to="/digital-agency">Memberships</Link></li> */}
+                    {/* <li><Link to="/finance">Young SKÅL</Link></li> */}
                 </ul>
             </li>
 
             <li className="has-droupdown"><Link to="#">Join SKAL</Link>
                 <ul className="submenu">
-                    <li><Link to="/business-consulting">Active skal</Link></li>
+                    {/* <li><Link to="/business-consulting">Active skal</Link></li> */}
                     <li><Link to="/young-skal">Young SKÅL</Link></li>
                 </ul>
             </li>
 
-            <li><Link to="/about-us">Events</Link></li>
+            {/* <li><Link to="/about-us">Events</Link></li> */}
 
-            <li className="has-droupdown"><Link to="#">Sponsors</Link>
+            {/* <li className="has-droupdown"><Link to="#">Sponsors</Link>
                 <ul className="submenu">
                     <li><Link to="/business-consulting">Overview</Link></li>
                     <li><Link to="/business-consulting-2">National Board</Link></li>
@@ -35,9 +35,9 @@ const Nav = () => {
                     <li><Link to="/digital-agency">Memberships</Link></li>
                     <li><Link to="/finance">Young SKÅL</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li className="has-droupdown"><Link to="#">News & Media</Link>
+            {/* <li className="has-droupdown"><Link to="#">News & Media</Link>
                 <ul className="submenu">
                     <li><Link to="/business-consulting">Overview</Link></li>
                     <li><Link to="/business-consulting-2">National Board</Link></li>
@@ -46,9 +46,9 @@ const Nav = () => {
                     <li><Link to="/digital-agency">Memberships</Link></li>
                     <li><Link to="/finance">Young SKÅL</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li><Link to="/about-us">Kotin</Link></li>
+            {/* <li><Link to="/about-us">Kotin</Link></li> */}
 
             {/* <li className="has-droupdown"><Link to="#">Home</Link>
                 <ul className="submenu">
