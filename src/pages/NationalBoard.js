@@ -22,7 +22,10 @@ const teamData = [
         image: 'krishna',
         name: 'Krishna Gopalan',
         designation: 'Vice President 2',
-    },
+    }
+]
+
+const teamData2 = [
     {
         image: 'rohit',
         name: 'Rohit Hangal',
@@ -42,7 +45,11 @@ const teamData = [
         image: 'Raja',
         name: 'Raja Gopaal Iyer',
         designation: 'Director YS',
-    },
+    }
+]
+
+
+const auditor = [
     {
         image: 'Varadaraj',
         name: 'M Varadaraj Prabhu',
@@ -91,6 +98,50 @@ const NationalBoard = () => {
                     </ScrollAnimation>
                 </div>
             ))}
+            <div className="row row--30">
+            {teamData2.map((data, index) => (
+                <div className="col-lg-3 col-md-6 col-12 mt--30" key={index}>
+                    <ScrollAnimation 
+                    animateIn="fadeInUp"
+                    animateOut="fadeInOut"
+                    animateOnce={true}>
+                        <div className={`rn-team team-style-two`}>
+                            <div className="inner">
+                                <figure className="thumbnail">
+                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" style={{height:"300px"}}/>
+                                </figure>
+                                <figcaption className="content">
+                                    <h2 className="title" style={{color:"#204595"}}>{data.name}</h2>
+                                    <h6 className="theme-gradient">{data.designation}</h6>
+                                </figcaption>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
+                </div>
+            ))}
+            </div>
+            <div className="row row--30">
+                {auditor.map((data, index) => (
+                    <div className="col-lg-3 col-md-6 col-12 mt--30" key={index}>
+                        <ScrollAnimation 
+                        animateIn="fadeInUp"
+                        animateOut="fadeInOut"
+                        animateOnce={true}>
+                            <div className={`rn-team team-style-two`}>
+                                <div className="inner">
+                                    <figure className="thumbnail">
+                                        <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" style={{height:"300px"}}/>
+                                    </figure>
+                                    <figcaption className="content">
+                                        <h2 className="title" style={{color:"#204595"}}>{data.name}</h2>
+                                        <h6 className="theme-gradient">{data.designation}</h6>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </ScrollAnimation>
+                    </div>
+                ))}
+            </div>
         </div>
         </div>
         </div>

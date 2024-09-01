@@ -24,7 +24,33 @@ const Nav = () => {
                 </ul>
             </li>
 
-            {/* <li><Link to="/about-us">Events</Link></li> */}
+            <li><Link to="/events">Events</Link></li>
+            <li><Link to="/news-media">News & Media</Link></li>
+
+            <li className="has-droupdown"><Link to="#">Clubs</Link>
+                <ul className="submenu">
+                    <li><Link to="/bangalore">Bangalore</Link></li>
+                    <li><Link to="/bhubaneswar">Bhubaneswar</Link></li>
+                    <li><Link to="/bombay">Bombay</Link></li>
+                    <li><Link to="/chandigarh">Chandigarh</Link></li>
+                    <li><Link to="/chennai">Chennai</Link></li>
+                    <li><Link to="/coimbatore">Coimbatore</Link></li>
+                    <li><Link to="/bangalore">Bangalore</Link></li>
+                    <li><Link to="/delhi">Delhi</Link></li>
+                    <li><Link to="/goa">Goa</Link></li>
+                    <li><Link to="/jaipur">Jaipur</Link></li>
+                    <li><Link to="/hyderabad">Hyderabad</Link></li>
+                    <li><Link to="/kochi">Kochi</Link></li>
+                    <li><Link to="/kolkata">Kolkata</Link></li>
+                    <li><Link to="/lucknow">Lucknow</Link></li>
+                    <li><Link to="/mumbai-south">Mumbai South</Link></li>
+                    <li><Link to="/mysuru">Mysuru</Link></li>
+                    <li><Link to="/pune">Pune</Link></li>
+                    <li><Link to="/trivandrum">Trivandrum</Link></li>
+                </ul>
+            </li>
+
+            <li><Link to="/kotin">Kotin</Link></li>
 
             {/* <li className="has-droupdown"><Link to="#">Sponsors</Link>
                 <ul className="submenu">

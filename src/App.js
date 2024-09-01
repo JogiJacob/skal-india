@@ -25,6 +25,11 @@ import Startup from "./pages/Startup";
 import WebAgency from "./pages/WebAgency";
 import PastPresidents from "./pages/PastPresidents";
 import YoungSkal from "./pages/YoungSkal";
+import EventsPage from "./pages/EventsPage";
+import NewsMedia from "./pages/NewsMedia.js";
+import Kotin from "./pages/Kotin.js";
+import Bangalore from "./pages/Bangalore.js";
+
 
 import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
@@ -82,6 +87,11 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/national-board"}`} exact component={NationalBoard}/>
                     <Route path={`${process.env.PUBLIC_URL + "/past-presidents"}`} exact component={PastPresidents}/>YoungSkal
                     <Route path={`${process.env.PUBLIC_URL + "/young-skal"}`} exact component={YoungSkal}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/events"}`} exact component={EventsPage}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/news-media"}`} exact component={NewsMedia}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/kotin"}`} exact component={Kotin}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/bangalore"}`} exact component={Bangalore}/>
+
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>
                     <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={Corporate}/>
