@@ -29,7 +29,22 @@ import EventsPage from "./pages/EventsPage";
 import NewsMedia from "./pages/NewsMedia.js";
 import Kotin from "./pages/Kotin.js";
 import Bangalore from "./pages/Bangalore.js";
-
+import Bhubaneswar from "./pages/Bhubaneswar.js";
+import Bombay from "./pages/Bombay.js";
+import Chandigarh from "./pages/Chandigarh.js";
+import Chennai from "./pages/Chennai.js";
+import Coimbatore from "./pages/Coimbatore.js";
+import Delhi from "./pages/Delhi.js";
+import Goa from "./pages/Goa.js";
+import Jaipur from "./pages/Jaipur.js";
+import Hyderabad from "./pages/Hyderabad.js";
+import Kochi from "./pages/Kochi.js";
+import Kolkata from "./pages/Kolkata.js";
+import Lucknow from "./pages/Lucknow.js";
+import MumbaiSouth from "./pages/MumbaiSouth.js";
+import Mysuru from "./pages/Mysuru.js";
+import Pune from "./pages/Pune.js";
+import Trivandrum from "./pages/Trivandrum.js";
 
 import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
@@ -85,12 +100,28 @@ const App = () => {
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/corporate"}`} exact component={Splash}/>
                     <Route path={`${process.env.PUBLIC_URL + "/national-board"}`} exact component={NationalBoard}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/past-presidents"}`} exact component={PastPresidents}/>YoungSkal
+                    <Route path={`${process.env.PUBLIC_URL + "/past-presidents"}`} exact component={PastPresidents}/>
                     <Route path={`${process.env.PUBLIC_URL + "/young-skal"}`} exact component={YoungSkal}/>
                     <Route path={`${process.env.PUBLIC_URL + "/events"}`} exact component={EventsPage}/>
                     <Route path={`${process.env.PUBLIC_URL + "/news-media"}`} exact component={NewsMedia}/>
                     <Route path={`${process.env.PUBLIC_URL + "/kotin"}`} exact component={Kotin}/>
                     <Route path={`${process.env.PUBLIC_URL + "/bangalore"}`} exact component={Bangalore}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/bhubaneswar"}`} exact component={Bhubaneswar}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/bombay"}`} exact component={Bombay}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/chandigarh"}`} exact component={Chandigarh}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/chennai"}`} exact component={Chennai}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/coimbatore"}`} exact component={Coimbatore}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/delhi"}`} exact component={Delhi}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/goa"}`} exact component={Goa}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/jaipur"}`} exact component={Jaipur}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/hyderabad"}`} exact component={Hyderabad}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/kochi"}`} exact component={Kochi}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/kolkata"}`} exact component={Kolkata}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/lucknow"}`} exact component={Lucknow}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/mumbai-south"}`} exact component={MumbaiSouth}/>Mysuru
+                    <Route path={`${process.env.PUBLIC_URL + "/mysuru"}`} exact component={Mysuru}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/pune"}`} exact component={Pune}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/trivandrum"}`} exact component={Trivandrum}/>
 
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>

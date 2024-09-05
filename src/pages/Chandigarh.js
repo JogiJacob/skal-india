@@ -8,13 +8,13 @@ import ContactOne from "../elements/contact/ContactOne";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-const Bangalore = () => {
+const Chandigarh = () => {
     return (
         <>
             <SEO title="Events" />
             <Layout>
                 <BreadcrumbOne 
-                    title="Bangalore"
+                    title="Chandigarh"
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Events"
@@ -25,7 +25,7 @@ const Bangalore = () => {
             <div className="row row--30 align-items-center">
                     <div className="col-lg-5">
                         <div className="thumbnail">
-                            <img className="w-100" src="./images/about/banglore1.jpg" alt="About Images" />
+                            <img className="w-100" src="./images/about/chandigarh.jpg" alt="About Images" />
                         </div>
                     </div>
 
@@ -42,60 +42,54 @@ const Bangalore = () => {
                                     <tr>
                                     <th scope="col">Position</th>
                                     <th scope="col">Name</th>
-                                    <th scope="col">Email</th>
                                     <th scope="col">Mobile</th>
+                                    <th scope="col">Email</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>President</td>
-                                    <td>Skl. Ayappa Somaiah</td>
-                                    <td>ayappa@tattvatrails.com</td>
-                                    <td>+91 7022024353</td>
+                                    <td>Skl.Rishi Kapoor</td>
+                                    <td>9888999429</td>
+                                    <td>rk@mytravelbox.in</td>
                                 </tr>
                                 <tr>
                                     <td>Vice President 1</td>
-                                    <td>Skl. Mani Manimegalai</td>
-                                    <td>manimegalai@globalaviationindia.com</td>
-                                    <td>+91 8022249309</td>
+                                    <td>Skl.Vinod Sharma</td>
+                                    <td>9855055562</td>
+                                    <td>venusholidaymart@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Vice President 2</td>
-                                    <td>Skl. Sudipta Deb</td>
-                                    <td>sudipta@itravelplaces.com</td>
-                                    <td>+91 9900250883</td>
+                                    <td>Skl. Karan Anand</td>
+                                    <td>9888450885</td>
+                                    <td>journeywhizz@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Secretary</td>
-                                    <td>Skl. Joseph Jose</td>
-                                    <td>joseph.jose@gmail.com</td>
-                                    <td>+91 97413 05750</td>
+                                    <td>Skl.Piyush Kohli</td>
+                                    <td>9988688626</td>
+                                    <td>brforex@hotmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Treasurer</td>
-                                    <td>Skl. Balan Nair</td>
-                                    <td>vbnair@bangaloreaviationtraining.in</td>
-                                    <td>+91 98440 02246</td>
+                                    <td>Skl.Sumeet Gandhi</td>
+                                    <td>8620000012</td>
+                                    <td>gandhitravel@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Com &amp; P.R - Director</td>
+                                    <td>Skl.Kanav Aggarwal</td>
+                                    <td>9876030001</td>
+                                    <td>kanav.aggarwalholidays@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Young Skal - Director</td>
-                                    <td>Skl. Pawan Jain</td>
-                                    <td>pavanjain@trippyescapes.com</td>
-                                    <td>+91 9742454567</td>
+                                    <td>TBA</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
-                                <tr>
-                                    <td>Com & P.R - Director</td>
-                                    <td>Skl.Thomas E Ramapuram </td>
-                                    <td>thomas2.r@evolveback.com</td>
-                                    <td>+91 9980137147</td>
-                                </tr>
-                                <tr>
-                                    <td>Membership Development Officer</td>
-                                    <td>Skl. Darby Raju </td>
-                                    <td>darbyraju@gmail.com</td>
-                                    <td>+91 9845428071</td>
-                                </tr>
-                                </tbody>
+                            </tbody>
                                 </table>
                                 </ScrollAnimation>
                 
@@ -110,4 +104,4 @@ const Bangalore = () => {
         </>
     )
 }
-export default Bangalore;
+export default Chandigarh;

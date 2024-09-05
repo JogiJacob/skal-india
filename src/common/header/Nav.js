@@ -35,7 +35,6 @@ const Nav = () => {
                     <li><Link to="/chandigarh">Chandigarh</Link></li>
                     <li><Link to="/chennai">Chennai</Link></li>
                     <li><Link to="/coimbatore">Coimbatore</Link></li>
-                    <li><Link to="/bangalore">Bangalore</Link></li>
                     <li><Link to="/delhi">Delhi</Link></li>
                     <li><Link to="/goa">Goa</Link></li>
                     <li><Link to="/jaipur">Jaipur</Link></li>

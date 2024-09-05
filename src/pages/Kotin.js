@@ -25,7 +25,9 @@ const Kotin = () => {
                 <div className="row row--40 align-items-center">
                     <div className="col-lg-12 mt_md--40 mt_sm--40">
                         <div className="content">
-                            
+                        <embed src="./images/kotin/KOTIN-1.pdf" type="application/pdf"   height="700px" width="500">
+                        </embed>
+
                         </div>
                     </div>
                 </div>

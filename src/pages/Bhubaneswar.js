@@ -8,13 +8,13 @@ import ContactOne from "../elements/contact/ContactOne";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-const Bangalore = () => {
+const Bhubaneswar = () => {
     return (
         <>
             <SEO title="Events" />
             <Layout>
                 <BreadcrumbOne 
-                    title="Bangalore"
+                    title="Bhubaneswar"
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Events"
@@ -25,7 +25,7 @@ const Bangalore = () => {
             <div className="row row--30 align-items-center">
                     <div className="col-lg-5">
                         <div className="thumbnail">
-                            <img className="w-100" src="./images/about/banglore1.jpg" alt="About Images" />
+                            <img className="w-100" src="./images/about/bubaneswar.jpg" alt="About Images" />
                         </div>
                     </div>
 
@@ -42,58 +42,58 @@ const Bangalore = () => {
                                     <tr>
                                     <th scope="col">Position</th>
                                     <th scope="col">Name</th>
-                                    <th scope="col">Email</th>
                                     <th scope="col">Mobile</th>
+                                    <th scope="col">Email</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>President</td>
-                                    <td>Skl. Ayappa Somaiah</td>
-                                    <td>ayappa@tattvatrails.com</td>
-                                    <td>+91 7022024353</td>
+                                <td>President</td>
+                                <td>Skl. Jitendra Kumar Mohanty</td>
+                                <td>9338102221</td>
+                                <td>cmd@swostigroup.com</td>
                                 </tr>
                                 <tr>
-                                    <td>Vice President 1</td>
-                                    <td>Skl. Mani Manimegalai</td>
-                                    <td>manimegalai@globalaviationindia.com</td>
-                                    <td>+91 8022249309</td>
+                                <td>Vice President 1</td>
+                                <td>Skl.Debasish Patnaik</td>
+                                <td>9337555551</td>
+                                <td>deboopatnaik@thecrown.in</td>
                                 </tr>
                                 <tr>
                                     <td>Vice President 2</td>
-                                    <td>Skl. Sudipta Deb</td>
-                                    <td>sudipta@itravelplaces.com</td>
-                                    <td>+91 9900250883</td>
+                                    <td>Skl. Rak Kishore Patra</td>
+                                    <td></td>
+                                    <td>rajpuri08@gmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Secretary</td>
-                                    <td>Skl. Joseph Jose</td>
-                                    <td>joseph.jose@gmail.com</td>
-                                    <td>+91 97413 05750</td>
+                                    <td>Skl.Debasish Mahapatra</td>
+                                    <td>9337123999</td>
+                                    <td>k7holidays@hotmail.com</td>
                                 </tr>
                                 <tr>
                                     <td>Treasurer</td>
-                                    <td>Skl. Balan Nair</td>
-                                    <td>vbnair@bangaloreaviationtraining.in</td>
-                                    <td>+91 98440 02246</td>
-                                </tr>
-                                <tr>
-                                    <td>Young Skal - Director</td>
-                                    <td>Skl. Pawan Jain</td>
-                                    <td>pavanjain@trippyescapes.com</td>
-                                    <td>+91 9742454567</td>
+                                    <td>Skl.Sourav Dash</td>
+                                    <td>9124777703</td>
+                                    <td>saurav@tripprocess.com </td>
                                 </tr>
                                 <tr>
                                     <td>Com & P.R - Director</td>
-                                    <td>Skl.Thomas E Ramapuram </td>
-                                    <td>thomas2.r@evolveback.com</td>
-                                    <td>+91 9980137147</td>
+                                    <td>Skl.Subrat Dash</td>
+                                    <td>7008134870</td>
+                                    <td>ceo@pipulhotelsandresorts.com </td>
+                                </tr>
+                                <tr>
+                                    <td>CSR</td>
+                                    <td>Skl.Debabrat Dash</td>
+                                    <td>9338757598</td>
+                                    <td>debabrata@omleisure.org</td>
                                 </tr>
                                 <tr>
                                     <td>Membership Development Officer</td>
-                                    <td>Skl. Darby Raju </td>
-                                    <td>darbyraju@gmail.com</td>
-                                    <td>+91 9845428071</td>
+                                    <td>Skl.Amar Kumar Sahoo</td>
+                                    <td>9861257600</td>
+                                    <td>amar@vwvtourism.com </td>
                                 </tr>
                                 </tbody>
                                 </table>
@@ -110,4 +110,4 @@ const Bangalore = () => {
         </>
     )
 }
-export default Bangalore;
+export default Bhubaneswar;
