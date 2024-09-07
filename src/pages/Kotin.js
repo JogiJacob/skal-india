@@ -25,9 +25,25 @@ const Kotin = () => {
                 <div className="row row--40 align-items-center">
                     <div className="col-lg-12 mt_md--40 mt_sm--40">
                         <div className="content">
-                        <embed src="./images/kotin/KOTIN-1.pdf" type="application/pdf"   height="700px" width="500">
-                        </embed>
-
+                        {/* <embed src="./images/kotin/KOTIN-1.pdf" type="application/pdf"   height="700px" width="500">
+                        </embed> */}
+                        <div className="col-lg-2 mt_md--40 mt_sm--40">
+                       
+                        <SectionTitle
+                            textAlign = "text-center"
+                            radiusRounded = ""
+                            subtitle = "Volume 5, Issue 10 July - September 2024"
+                        />
+                        <div className="thumbnail">
+                            <img className="w-100" src="/images/kotin/KOTIN-july-sept.jpg" alt="Kotin July-Sept2024" />
+                        </div>
+                        <div>
+                        <div className="download-button mt--20">
+                            <a className="btn-read-more" href="/images/kotin/KOTIN-july-september.pdf" download><span>Download</span></a>
+                            <a className="btn-read-more ml--20" href="/images/kotin/KOTIN-july-september.pdf" target="_blank"><span>Read</span></a>
+                        </div>
+                        </div>  
+                        </div>    
                         </div>
                     </div>
                 </div>

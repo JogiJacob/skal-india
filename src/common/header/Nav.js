@@ -21,6 +21,7 @@ const Nav = () => {
                 <ul className="submenu">
                     {/* <li><Link to="/business-consulting">Active skal</Link></li> */}
                     <li><Link to="/young-skal">Young SKÅL</Link></li>
+                    <li><Link to="/young-skal">SKAL Membership</Link></li>
                 </ul>
             </li>
 

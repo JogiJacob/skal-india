@@ -113,7 +113,7 @@ const Corporate = () => {
                 {/* End Elements Area  */}
 
                 {/* Start Service Area  */}
-                <div className="rn-service-area">
+                {/* <div className="rn-service-area">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -131,18 +131,18 @@ const Corporate = () => {
                             textAlign = "text-start"
                             />
                     </div>
-                </div>
+                </div> */}
                 {/* End Service Area  */}
-
+{/* 
                 <Separator />
 
                 <AboutTwo />
 
                 <Separator />
                 
-                <Separator />
+                <Separator /> */}
                 {/* Start Elements Area  */}
-                <div className="rwt-team-area rn-section-gap">
+                {/* <div className="rwt-team-area rn-section-gap">
                     <div className="wrapper plr--65 plr_md--15 plr_sm--15">
                         <div className="row mb--20">
                             <div className="col-lg-12">
@@ -157,7 +157,7 @@ const Corporate = () => {
                         </div>
                         <TeamFour column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-three" />
                     </div>
-                </div>
+                </div> */}
                 {/* End Elements Area  */}
 
                 <Separator />
