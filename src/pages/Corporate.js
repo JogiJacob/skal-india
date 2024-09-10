@@ -19,6 +19,7 @@ import CalltoActionFive from '../elements/calltoaction/CalltoActionFive';
 import Slider from "react-slick";
 import { BannerActivation } from "../utils/script";
 import Typed from 'react-typed';
+import ServiceFive from '../elements/service/ServiceFive';
 
 
 const BannerData = [
@@ -28,12 +29,12 @@ const BannerData = [
         description: "Connecting Travel and Tourism Professionals all around the world"
     },
     {
-        image: "/images/bg/header_overview_skal.jpg",
+        image: "/images/bg/Taj.jpeg",
         title: "Join the largest Travel and Tourism Association",
         description: "Join the largest Travel and Tourism Association"
     },
     {
-        image: "/images/bg/header_overview_skal.jpg",
+        image: "/images/bg/Indian_Palace.jpeg",
         title: "SKÅL India",
         description: "We help our clients succeed by creating brand identities, digital experiences, and print materials."
     },
@@ -46,7 +47,7 @@ const Corporate = () => {
             <main className="page-wrapper">
                 
                 <div className="header-transparent-with-topbar">
-                    <HeaderTopBar />
+                    {/* <HeaderTopBar /> */}
                     <HeaderOne btnStyle="btn-small btn-icon" HeaderSTyle="header-not-transparent sticky" />
                 </div>
 
@@ -76,7 +77,7 @@ const Corporate = () => {
                         <div key={index} className="single-slide">
                             <div className="height-650 bg-overlay bg_image" style={{backgroundImage: `url(${process.env.PUBLIC_URL} ${data.image})`}}>
                                 <div className="container">
-                                <div className="row row--30 align-items-center">
+                                <div className="row row--60 align-items-center">
                                         <div className="order-2 order-lg-1 col-lg-7">
                                             <div className="inner text-start">
                                             {/* <video autoplay>
@@ -93,6 +94,24 @@ const Corporate = () => {
                         </div>
                     ))}
                 </Slider>
+
+                <div className="rn-service-area rn-section-gap">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <SectionTitle
+                                    textAlign = "text-center"
+                                    radiusRounded = ""
+                                    title = "Connecting Travel and Tourism Professionals all around the World"
+                                    />
+                            </div>
+                        </div>
+                        <ServiceFive 
+                            serviceStyle = "gallery-style"
+                            textAlign = "text-start"
+                        />
+                    </div>
+                </div>
             {/* Start Elements Area  */}
             <div className="rwt-counterup-area rn-section-gap">
                     <div className="container">
@@ -102,7 +121,7 @@ const Corporate = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     // subtitle = "About US"
-                                    title = "Connecting Travel and Tourism Professionals all around the World"
+                                    title = "Skål International in numbers"
                                     description = ""
                                 />
                             </div>

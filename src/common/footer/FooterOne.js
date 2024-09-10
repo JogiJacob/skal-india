@@ -12,6 +12,7 @@ const footerIntemFive =  footerOne[5];
 const indexOneLink = (footerIntemOne.quicklink);
 const indexTwoLink = (footerIntemTwo.quicklink);
 const indexThreeLink = (footerIntemThree.quicklink);
+import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin, FiYoutube } from "react-icons/fi";
 
 const FooterOne = () => {
     return (
@@ -21,15 +22,27 @@ const FooterOne = () => {
                     <div className="container">
                         <div className="row">
                             {/* Start Single Widget  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
                                     <div className="logo">
                                         <Logo 
-                                            image={`${process.env.PUBLIC_URL}/images/logo/new-skal-logo.png`}
-                                            image2={`${process.env.PUBLIC_URL}/images/logo/new-skal-logo.png`}
+                                            image={`${process.env.PUBLIC_URL}/images/logo/logo_footer_skal.png`}
+                                            image2={`${process.env.PUBLIC_URL}/images/logo/logo_footer_skal.png`}
                                         />
                                     </div>
-                                    <h3 className="text-big" style={{color: "white"}}>{footerIntem.title}</h3>
+                                    <h6 style={{color:"white"}}>Connecting Travel and Tourism Professionals all around the World</h6>
+                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <div className="rn-footer-widget">
+                                            <div className="inner">
+                                                <ul className="social-icon social-default justify-content-start">
+                                                    <li><Link to="facebook.com"><FiFacebook /></Link></li>
+                                                    <li><Link to="twitter.com"><FiTwitter /></Link></li>
+                                                    <li><Link to="instagram.com"><FiInstagram /></Link></li>
+                                                    <li><Link to="linkdin.com"><FiYoutube /></Link></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             {/* End Single Widget  */}
@@ -95,20 +108,7 @@ const FooterOne = () => {
                             {/* End Single Widget  */}
 
                             {/* Start Single Widget  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-footer-widget">
-                                    <h4 className="title">{footerIntemFive.title}</h4>
-                                    <div className="inner">
-                                        <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
-                                        {/* <form className="newsletter-form" action="#">
-                                            <div className="form-group">
-                                                <input type="email" placeholder="Enter Your Email Here" />
-                                            </div>
-                                            
-                                        </form> */}
-                                    </div>
-                                </div>
-                            </div>
+                           
                             {/* End Single Widget  */}
                         </div>
                     </div>
