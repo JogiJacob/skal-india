@@ -35,10 +35,11 @@ const FooterOne = () => {
                                         <div className="rn-footer-widget">
                                             <div className="inner">
                                                 <ul className="social-icon social-default justify-content-start">
-                                                    <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                                    <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                                    <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                                    <li><Link to="linkdin.com"><FiYoutube /></Link></li>
+                                            <li><a href="https://www.facebook.com/skalinternational" target="_blank"><FiFacebook />
+                                            </a></li>
+                                            <li><a href="https://x.com/SKAL_Intl" target="_blank"><FiTwitter /></a></li>
+                                            <li><a href="https://www.linkedin.com/company/skal-international-official/" target="_blank"><FiLinkedin /></a></li>
+                                            <li><a href="https://www.youtube.com/channel/UCNKK--TH-MczsM5SZby96Dw" target="_blank"><FiYoutube /></a></li>
                                                 </ul>
                                             </div>
                                         </div>
