@@ -20,8 +20,9 @@ const Nav = () => {
             <li className="has-droupdown"><Link to="#">Join SKAL</Link>
                 <ul className="submenu">
                     {/* <li><Link to="/business-consulting">Active skal</Link></li> */}
+                    <li><Link to="/skalmembership">SKAL Membership</Link></li>
                     <li><Link to="/young-skal">Young SKÅL</Link></li>
-                    <li><Link to="/young-skal">SKAL Membership</Link></li>
+                    <li><a href="https://skal.org/MembershipForm" target="_blank">Membership Application</a></li>
                 </ul>
             </li>
 

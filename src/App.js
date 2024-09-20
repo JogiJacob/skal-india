@@ -45,6 +45,7 @@ import MumbaiSouth from "./pages/MumbaiSouth.js";
 import Mysuru from "./pages/Mysuru.js";
 import Pune from "./pages/Pune.js";
 import Trivandrum from "./pages/Trivandrum.js";
+import SkalMembership from './pages/SkalMembership.js'
 
 import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
@@ -122,6 +123,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/mysuru"}`} exact component={Mysuru}/>
                     <Route path={`${process.env.PUBLIC_URL + "/pune"}`} exact component={Pune}/>
                     <Route path={`${process.env.PUBLIC_URL + "/trivandrum"}`} exact component={Trivandrum}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/skalmembership"}`} exact component={SkalMembership}/>
 
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>

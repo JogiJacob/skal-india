@@ -81,6 +81,14 @@
     }
 }
 
+a.newsLinkone { 
+    color: white;
+}
+
+a.newsLinkone:hover { 
+    color: blue;
+}
+
 
 .rn-meta-list {
     @extend %liststyle;
