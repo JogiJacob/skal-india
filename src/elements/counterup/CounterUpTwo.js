@@ -9,12 +9,12 @@ const Data = [
         description: 'Skål International was born in Paris',
     },
     {
-        countNum : 15,
+        countNum : 17,
         countTitle: 'Clubs',
         description: 'More than 326 Clubs around the world',
     },
     {
-        countNum : 14,
+        countNum : 16,
         countTitle: 'Cities',
         description: 'Clubs and members of more than 102 countries',
     },

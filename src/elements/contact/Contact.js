@@ -42,8 +42,7 @@ const Contact = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact Phone Number</h4>
-                                        <p><a href="tel:+444 555 666 777">+444 555 666 777</a></p>
-                                        <p><a href="tel:+222 222 222 333">+222 222 222 333</a></p>
+                                        <p><a href="tel:+919844092150">+91 98440 92150</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -55,8 +54,7 @@ const Contact = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Our Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <p><a href="secretary.skalindia@gmail.com">secretary.skalindia@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +65,8 @@ const Contact = () => {
                                         <FiMapPin />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Our Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <h4 className="title">Administrative Office</h4>
+                                        <p>245, Amar Jyoti Layout<br /> Bangalore, 560 071, India</p>
                                     </div>
                                 </div>
                             </div>
